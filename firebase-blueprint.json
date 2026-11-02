@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "UserProfile": {
+      "collection": "users",
+      "fields": {
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string" },
+        "status": { "type": "string" },
+        "department": { "type": "string" },
+        "note": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "lastLoginAt": { "type": "string" },
+        "bibliographyCount": { "type": "number" }
+      }
+    },
+    "Bibliography": {
+      "collection": "bibliographies",
+      "fields": {
+        "userId": { "type": "string" },
+        "userEmail": { "type": "string" },
+        "title": { "type": "string" },
+        "style": { "type": "string" },
+        "items": { "type": "array" },
+        "exportSettings": { "type": "map" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    }
+  }
+}

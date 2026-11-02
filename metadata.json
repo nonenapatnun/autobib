@@ -1,0 +1,6 @@
+{
+  "name": "AutoBiblio - ระบบสร้างและตรวจสอบบรรณานุกรมอัตโนมัติ (APA, MLA, Chicago, Harvard, Vancouver)",
+  "description": "ระบบจัดการบรรณานุกรมสำหรับงานวิจัยและวิทยานิพนธ์ รองรับมาตรฐาน APA 6/7, MLA, Chicago, Harvard, Vancouver ตรวจสอบฟิลด์จำเป็น ดึงข้อมูลอัตโนมัติจาก DOI, ISBN, URL เว็บไซต์ และส่งออกไฟล์ Word (.docx)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
